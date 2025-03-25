@@ -1,15 +1,10 @@
 import type { Metadata } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Oxanium } from 'next/font/google'
 import { StoreProvider } from '@/shared/providers/store-provider'
 import './globals.css'
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
-  subsets: ['latin'],
-})
-
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
+const oxanium = Oxanium({
+  variable: '--font-oxanium',
   subsets: ['latin'],
 })
 
@@ -25,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${oxanium.variable}`}>
         <StoreProvider>{children}</StoreProvider>
       </body>
     </html>

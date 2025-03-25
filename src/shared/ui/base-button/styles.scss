@@ -1,0 +1,43 @@
+.base-button-container {
+  position: relative;
+  .triangle-left {
+    width: 20px;
+    bottom: 0;
+    aspect-ratio: 1;
+    clip-path: polygon(0 0, 100% 100%, 0 100%);
+    position: absolute;
+    z-index: 1;
+  }
+  .triangle-right {
+    width: 25px;
+    right: 0;
+    bottom: 0;
+    aspect-ratio: 1;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(to left, white 100%, transparent 50%);
+  }
+
+  .bar {
+    width: 83.135px;
+    height: 6.015px;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    z-index: 1;
+  }
+  #base-button {
+    width: 278px;
+    height: 64px;
+    flex-shrink: 0;
+    color: var(--global-color-primary);
+    background-color: var(--global-color-accent);
+    font-size: var(--global-medium-font-size);
+    font-family: var(--global-font-oxanium);
+    padding: 10px 38px;
+    text-transform: none;
+    font-weight: 700 !important;
+    font-weight: var(--global-bold-font);
+  }
+}
