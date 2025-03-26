@@ -1,6 +1,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --global-font-oxanium: Oxanium !important;
 }
 
 @media (prefers-color-scheme: dark) {
