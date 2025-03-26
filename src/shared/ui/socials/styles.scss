@@ -1,0 +1,105 @@
+.socials-container {
+  height: 558.984px;
+  border-radius: 4490.199px;
+  background: #161318;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 190px;
+  margin-top: 100px;
+  // filter: blur(80px);
+}
+
+.title-one {
+  z-index: 999;
+  display: flex;
+  width: 334px;
+  height: 28px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.follow-text {
+  color: #ffdd15;
+  text-align: center;
+  font-family: Oxanium;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 12px;
+  text-transform: uppercase;
+}
+
+.title-two {
+  display: flex;
+  width: 820.406px;
+  height: 31.137px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 12px;
+}
+
+.socials-text {
+  color: #fff;
+  text-align: center;
+  font-family: Oxanium;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
+}
+
+.platforms-container {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 89px;
+  margin-top: 75px;
+}
+
+.platform-container {
+  width: 215.045px;
+  height: 286.448px;
+}
+
+.platform-logo-container {
+  width: 215.045px;
+  height: 215.045px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./assets/platform-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.platform-name {
+  color: #fff;
+  margin-top: 37px;
+  text-align: center;
+  font-family: 'Oxanium';
+  font-size: 26.731px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
+}
+
+.platform-name:hover {
+  color: #07b704;
+  margin-top: 37px;
+}
+
+.socials-text:hover {
+  color: #07b704;
+}

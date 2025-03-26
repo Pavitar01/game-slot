@@ -5,7 +5,7 @@
 
 .footer-container {
   width: 100%;
-  height: 160.318px;
+  height: 180.318px;
   flex-shrink: 0;
   padding: 30px 70px 0px 76px;
   display: flex;  
@@ -116,6 +116,8 @@
 }
 
 .warning {
+  padding-bottom: 50px;
+  padding-top: 50px;
   width: 1432.222px;
   color: rgba(187, 187, 187, 0.73);
   font-family: 'Oxanium';
@@ -123,7 +125,6 @@
   font-style: normal;
   font-weight: 700;
   line-height: 29px;
-  margin-top: 60px;
   margin-left: 76px;
 }
 
@@ -136,4 +137,5 @@
   font-weight: 700;
   line-height: normal;
   margin-top: 60px;
+  padding-bottom: 40px !important;
 }
