@@ -1,0 +1,102 @@
+.social-section {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--global-color-secondary);
+  .socials-container {
+    height: 558.984px;
+    border-radius: 4490.199px;
+    background: #161318;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 190px;
+    padding-top: 100px;
+    .title-one {
+      z-index: 999;
+      display: flex;
+      width: 334px;
+      height: 28px;
+      flex-direction: column;
+      justify-content: center;
+      flex-shrink: 0;
+      position: relative;
+
+      .follow-text {
+        color: var(--global-color-accent);
+        text-align: center;
+        font-family: Oxanium;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700 !important;
+        line-height: normal;
+        letter-spacing: 12px;
+        text-transform: uppercase;
+      }
+    }
+    .title-two {
+      display: flex;
+      width: 820.406px;
+      height: 31.137px;
+      flex-direction: column;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 12px;
+      .socials-text {
+        color: var(--global-color-primary);
+        text-align: center;
+        font-family: Oxanium;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        transition: color 0.3s ease-in-out;
+      }
+    }
+  }
+
+  .platforms-container {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 89px;
+    margin-top: 75px;
+
+    .platform-name {
+      color: #fff;
+      margin-top: 37px;
+      text-align: center;
+      font-family: 'Oxanium';
+      font-size: 26.731px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+      transition: color 0.3s ease-in-out;
+      cursor: pointer;
+    }
+
+    .platform-name:hover {
+      color: #07b704;
+      margin-top: 37px;
+    }
+
+    .socials-text:hover {
+      color: #07b704;
+    }
+  }
+}
+
+.platform-logo-container {
+  width: 215.045px;
+  height: 215.045px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./assets/platform-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

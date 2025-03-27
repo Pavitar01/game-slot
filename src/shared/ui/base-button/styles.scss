@@ -16,7 +16,6 @@
     clip-path: polygon(100% 0, 0% 100%, 100% 100%);
     position: absolute;
     z-index: 1;
-    background: linear-gradient(to left, white 100%, transparent 50%);
   }
 
   .bar {
@@ -35,6 +34,7 @@
     background-color: var(--global-color-accent);
     font-size: var(--global-medium-font-size);
     font-family: var(--global-font-oxanium);
+    box-sizing: border-box;
     padding: 10px 38px;
     text-transform: none;
     font-weight: 700 !important;

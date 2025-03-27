@@ -12,6 +12,7 @@ interface BaseButtonProps extends ButtonProps {
     color: string
   }
   barColor?: string
+  barWidth?: string
 }
 
 const BaseButton: React.FC<BaseButtonProps> = ({
@@ -19,6 +20,7 @@ const BaseButton: React.FC<BaseButtonProps> = ({
   borderLeft,
   borderRight,
   barColor,
+  barWidth,
   variant = 'contained',
   ...props
 }) => {
@@ -37,9 +39,14 @@ const BaseButton: React.FC<BaseButtonProps> = ({
         {children}
       </Button>
       {borderRight && (
-        <Box className="triangle-right" sx={{ bgcolor: borderRight.color }} />
+        <Box
+          className="triangle-right"
+          sx={{
+            background: `linear-gradient(to left, ${borderRight.color} 100%, transparent 50%)`,
+          }}
+        />
       )}
-      <Box className="bar" sx={{ bgcolor: barColor }} />
+      <Box className="bar" sx={{ bgcolor: barColor, width: barWidth }} />
     </Box>
   )
 }
